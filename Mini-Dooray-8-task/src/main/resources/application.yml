@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Mini-Dooray-8-task
+
+logging:
+  level:
+    org.hibernate.orm.jdbc.bind: trace
+    org.springframework.transaction.interceptor: trace
+
+server:
+  port: 8082
